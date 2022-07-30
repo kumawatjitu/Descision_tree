@@ -2,7 +2,7 @@
 """
 Created on Tue Apr  6 15:15:28 2021
 
-@author: deepak
+@author: Jitendra
 """
 import streamlit as st 
 from PIL import Image
@@ -51,7 +51,7 @@ def main():
       result=predict_note_authentication(UserID, Gender,Age,EstimatedSalary)
       st.success('Model has predicted {}'.format(result))
     if st.button("About"):
-      st.text("Developed by Deepak Moud")
+      st.text("Developed by Jitendra Kumawat")
       st.text("Head , Department of Computer Engineering")
 
 if __name__=='__main__':
